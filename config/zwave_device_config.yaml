@@ -1,0 +1,21 @@
+sensor.taklampe_pa_new_yorkrommet_alarm_type_2_0:
+  ignored: true
+  polling_intensity: 0
+sensor.taklampe_pa_new_yorkrommet_alarm_level_2_1:
+  ignored: true
+  polling_intensity: 0
+sensor.taklampe_pa_new_yorkrommet_power_management_2_11:
+  ignored: true
+  polling_intensity: 0
+sensor.taklampe_pa_new_yorkrommet_sourcenodeid_2_2:
+  ignored: true
+  polling_intensity: 0
+sensor.taklampe_spisebord_alarm_type_3_0:
+  ignored: true
+  polling_intensity: 0
+sensor.taklampe_spisebord_power_management_3_11:
+  ignored: true
+  polling_intensity: 0
+sensor.taklampe_spisebord_sourcenodeid_3_2:
+  ignored: true
+  polling_intensity: 0

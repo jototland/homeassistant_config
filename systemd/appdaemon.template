@@ -1,0 +1,13 @@
+[Unit]
+Description=AppDaemon service for Home Assistant
+After=homeassistant.service
+
+[Service]
+Type=simple
+User=$HASS_OWNER
+Group=$HASS_GROUP
+ExecStart=$DIR/venv/bin/appdaemon -c $DIR/config/appdaemon/
+
+[Install]
+WantedBy=multi-user.target
+

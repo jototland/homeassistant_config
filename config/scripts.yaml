@@ -1,0 +1,21 @@
+sensorstyrt_lys_gang_on:
+  alias: "Skru på lys i gangen ved bevegelse"
+  sequence:
+    - service: script.turn_off
+      data:
+        entity_id: script.sensorstyrt_lys_gang_off
+    - service: light.turn_on
+      data: 
+        entity_id: group.gang
+    - service: script.turn_on
+      data: 
+        entity_id: script.sensorstyrt_lys_gang_off
+
+sensorstyrt_lys_gang_off:
+  alias: "Skru av lys i gangen ved manglende bevegelse"
+  sequence:
+    - delay:
+        minutes: 15
+    - service: light.turn_off
+      data:
+        entity_id: group.gang

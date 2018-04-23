@@ -1,0 +1,9 @@
+#! /bin/bash
+
+if [[ $EUID -ne 0 ]]; then
+    echo "you must be root"
+    exit 1
+fi
+
+rm /etc/systemd/system/homeassistant.service
+rm /etc/systemd/system/appdaemon.service

@@ -1,0 +1,15 @@
+#! /bin/bash
+DIR=$(realpath "$(dirname "$(readlink -f "$0")")"/..)
+source $DIR/userconfig.txt
+if [[ -z $* ]]; then
+    exec sudo -u $HASS_OWNER -H \
+        /bin/bash \
+            --rcfile $DIR/bin/bashrc.sh \
+            --init-file $DIR/venv/bin/activate
+else
+    exec sudo -u $HASS_OWNER -H \
+        /bin/bash \
+            --rcfile $DIR/bin/bashrc.sh \
+            --init-file $DIR/venv/bin/activate \
+            -c "$*"
+fi

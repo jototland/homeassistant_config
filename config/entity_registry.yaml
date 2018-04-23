@@ -1,0 +1,160 @@
+light.stalampe_topp:
+  name:
+  platform: hue
+  unique_id: 00:17:88:01:02:8f:a9:2b-0b
+light.tapet2:
+  name:
+  platform: hue
+  unique_id: 00:17:88:01:02:df:2d:14-0b
+light.taklampe_soverom:
+  name:
+  platform: hue
+  unique_id: 00:17:88:01:02:88:6b:fa-0b
+light.stalampe_bunn:
+  name:
+  platform: hue
+  unique_id: 00:17:88:01:02:85:af:89-0b
+light.tapet5:
+  name:
+  platform: hue
+  unique_id: 00:0b:57:ff:fe:2f:c2:d2-01
+light.nattbordlys_gry:
+  name:
+  platform: hue
+  unique_id: 00:17:88:01:02:db:02:76-0b
+light.taklampe_skyskrapere:
+  name:
+  platform: hue
+  unique_id: 00:17:88:01:02:82:99:58-0b
+light.tapet3:
+  name:
+  platform: hue
+  unique_id: 00:17:88:01:02:df:2d:75-0b
+light.stuevindu_venstre:
+  name:
+  platform: hue
+  unique_id: 00:17:88:01:02:9a:1e:e4-0b
+light.tapet6:
+  name:
+  platform: hue
+  unique_id: 00:0b:57:ff:fe:37:c0:e8-01
+light.tapet1:
+  name:
+  platform: hue
+  unique_id: 00:0b:57:ff:fe:36:2c:46-01
+light.stuevindu_hyre:
+  name:
+  platform: hue
+  unique_id: 00:17:88:01:02:9a:25:39-0b
+light.tapet4:
+  name:
+  platform: hue
+  unique_id: 00:17:88:01:02:df:32:c9-0b
+light.nattbordlys_jo:
+  name:
+  platform: hue
+  unique_id: 00:17:88:01:02:85:b5:4a-0b
+light.new_york_rom_taklampe_level:
+  name:
+  platform: zwave
+  unique_id: 2-72057594076299265
+sensor.new_york_rom_taklampe_alarm_type:
+  name:
+  platform: zwave
+  unique_id: 2-72057594077528065
+sensor.new_york_rom_taklampe_alarm_level:
+  name:
+  platform: zwave
+  unique_id: 2-72057594077528081
+sensor.new_york_rom_taklampe_sourcenodeid:
+  name:
+  platform: zwave
+  unique_id: 2-72057594077528097
+sensor.new_york_rom_taklampe_power_management:
+  name:
+  platform: zwave
+  unique_id: 2-72057594077528241
+light.spisebord_taklampe_level:
+  name:
+  platform: zwave
+  unique_id: 3-72057594093076481
+sensor.spisebord_taklampe_alarm_type:
+  name:
+  platform: zwave
+  unique_id: 3-72057594094305281
+sensor.spisebord_taklampe_alarm_level:
+  name:
+  platform: zwave
+  unique_id: 3-72057594094305297
+sensor.spisebord_taklampe_sourcenodeid:
+  name:
+  platform: zwave
+  unique_id: 3-72057594094305313
+sensor.spisebord_taklampe_power_management:
+  name:
+  platform: zwave
+  unique_id: 3-72057594094305457
+binary_sensor.yttergang_ir_sensor:
+  name:
+  platform: zwave
+  unique_id: 4-72057594110017536
+sensor.yttergang_ir_luminance:
+  name:
+  platform: zwave
+  unique_id: 4-72057594110033970
+sensor.yttergang_ir_alarm_type:
+  name:
+  platform: zwave
+  unique_id: 4-72057594111082497
+sensor.yttergang_ir_alarm_level:
+  name:
+  platform: zwave
+  unique_id: 4-72057594111082513
+sensor.yttergang_ir_sourcenodeid:
+  name:
+  platform: zwave
+  unique_id: 4-72057594111082529
+sensor.yttergang_ir_burglar:
+  name:
+  platform: zwave
+  unique_id: 4-72057594111082657
+light.yttergang_taklampe_level:
+  name:
+  platform: zwave
+  unique_id: 6-72057594143408129
+sensor.yttergang_taklampe_alarm_type:
+  name:
+  platform: zwave
+  unique_id: 6-72057594144636929
+sensor.yttergang_taklampe_alarm_level:
+  name:
+  platform: zwave
+  unique_id: 6-72057594144636945
+sensor.yttergang_taklampe_sourcenodeid:
+  name:
+  platform: zwave
+  unique_id: 6-72057594144636961
+sensor.yttergang_taklampe_power_management:
+  name:
+  platform: zwave
+  unique_id: 6-72057594144637105
+light.innergang_taklampe_level:
+  name:
+  platform: zwave
+  unique_id: 9-72057594193739777
+sensor.innergang_taklampe_alarm_type:
+  name:
+  platform: zwave
+  unique_id: 9-72057594194968577
+sensor.innergang_taklampe_alarm_level:
+  name:
+  platform: zwave
+  unique_id: 9-72057594194968593
+sensor.innergang_taklampe_sourcenodeid:
+  name:
+  platform: zwave
+  unique_id: 9-72057594194968609
+sensor.innergang_taklampe_power_management:
+  name:
+  platform: zwave
+  unique_id: 9-72057594194968753

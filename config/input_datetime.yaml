@@ -1,0 +1,10 @@
+vekkerklokke_gry_tid:
+  name: Vekkerklokke Gry kl
+  has_date: false
+  has_time: true
+  initial: '05:50'
+alt_lys_av_tid:
+  name: Alt lys av kl
+  has_date: false
+  has_time: true
+  initial: '01:00'

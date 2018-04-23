@@ -1,0 +1,11 @@
+vekkerklokke_gry_aktivert:
+  name: 'Alarm aktivert'
+  icon: mdi:alarm-check
+  initial: off
+alt_lys_av_aktivert:
+  name: 'Lys av aktivert'
+  icon: mdi:weather-night
+  initial: on
+jo_test_boolean:
+  name: Jo test boolean
+  initial: off

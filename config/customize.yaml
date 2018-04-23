@@ -1,0 +1,52 @@
+sensor.yttergang_taklampe_power_management:
+  hidden: true
+sensor.yttergang_taklampe_sourcenodeid:
+  hidden: true
+sensor.yttergang_taklampe_alarm_type:
+  hidden: true
+sensor.yttergang_taklampe_alarm_level:
+  hidden: true
+sensor.yttergang_ir_sourcenodeid:
+  hidden: true
+sensor.spisebord_taklampe_sourcenodeid:
+  hidden: true
+sensor.spisebord_taklampe_power_management:
+  hidden: true
+sensor.spisebord_taklampe_alarm_type:
+  hidden: true
+sensor.spisebord_taklampe_alarm_level:
+  hidden: true
+sensor.new_york_rom_taklampe_sourcenodeid:
+  hidden: true
+sensor.new_york_rom_taklampe_power_management:
+  hidden: true
+sensor.new_york_rom_taklampe_alarm_type:
+  hidden: true
+sensor.new_york_rom_taklampe_alarm_level:
+  hidden: true
+sensor.innergang_taklampe_sourcenodeid:
+  hidden: true
+sensor.innergang_taklampe_power_management:
+  hidden: true
+sensor.innergang_taklampe_alarm_type:
+  hidden: true
+sensor.innergang_taklampe_alarm_level:
+  hidden: true
+light.new_york_rom_taklampe_level:
+  friendly_name: New York-rom taklampe
+light.spisebord_taklampe_level:
+  friendly_name: Spisebord Taklampe
+light.yttergang_taklampe_level:
+  friendly_name: Yttergang tak
+light.innergang_taklampe_level:
+  friendly_name: Innergang tak
+sensor.yttergang_ir_alarm_level:
+  hidden: true
+sensor.yttergang_ir_alarm_type:
+  hidden: true
+sensor.yttergang_ir_burglar:
+  hidden: true
+binary_sensor.yttergang_ir_sensor:
+  friendly_name: Yttergang IR-sensor
+sensor.yttergang_ir_luminance:
+  friendly_name: Yttergang Lysstyrke

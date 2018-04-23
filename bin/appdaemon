@@ -1,0 +1,5 @@
+#! /bin/bash
+DIR=$(realpath "$(dirname "$(readlink -f "$0")")"/..)
+source $DIR/userconfig.txt
+
+$DIR/bin/suhass $DIR/venv/bin/appdaemon -c $DIR/config/appdaemon "$*"

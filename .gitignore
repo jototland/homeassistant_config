@@ -2,3 +2,6 @@ venv
 logs
 config/pyozw.sqlite
 config/OZW_Log.txt
+config/.HA_VERSION
+config/home-assistant.log
+config/home-assistant_v2.db

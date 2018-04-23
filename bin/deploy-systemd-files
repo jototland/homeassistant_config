@@ -1,0 +1,20 @@
+#! /bin/bash
+
+DIR=$(realpath "$(dirname "$(readlink -f "$0")")"/..)
+. $DIR/userconfig.txt
+
+SERVICES="homeassistant appdaemon"
+
+if [[ $EUID -ne 0 ]]; then
+    echo "you must be root"
+    exit 1
+fi
+
+cd $DIR/systemd
+
+for f in $SERVICES; do
+    sed -e "s/\$HASS_OWNER/$HASS_OWNER/g" \
+        -e "s/\$HASS_GROUP/$HASS_GROUP/g" \
+        -e "s|\$DIR|$DIR|g" \
+        $f.template > /etc/systemd/system/$f.service
+done

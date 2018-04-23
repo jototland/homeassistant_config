@@ -1,0 +1,11 @@
+# This is really a shell script, when editing, make sure you follow bash syntax
+
+# Edit below to change which user and group should own files, 
+# and which user and group homeassistant should run as
+# and the install directory
+# and the python executable
+
+HASS_OWNER=homeassistant
+HASS_GROUP=$HASS_OWNER
+
+PYTHON=python3.6

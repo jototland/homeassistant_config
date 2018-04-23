@@ -1,0 +1,107 @@
+# gry_og_jo:
+default_view:
+  name: Gry og Jo
+  view: yes
+  # icon: mdi:home
+  entities:
+    - group.new_york_rommet
+    - group.stue
+    - group.soverom
+    - group.gang
+    - group.vekkerklokke_gry
+    - group.alt_lys_av
+    # - group.jo_test
+new_york_tapet:
+  name: New York-tapeten
+  icon: mdi:city
+  entities:
+    - light.tapet1
+    - light.tapet2
+    - light.tapet3
+    - light.tapet4
+    - light.tapet5
+    - light.tapet6
+new_york_rommet:
+  name: New York-rommet
+  icon: mdi:square-outline
+  entities:
+    - group.new_york_tapet
+    - light.new_york_rom_taklampe_level
+stue:
+  name: Stue
+  icon: mdi:square-outline
+  entities:
+    - light.spisebord_taklampe_level
+    - light.taklampe_skyskrapere
+    - light.vitrineskap
+    - light.stalampe_topp
+    - light.stalampe_bunn
+    - light.stuevindu_venstre
+    - light.stuevindu_hyre
+soverom:
+  name: The Master Bedroom
+  icon: mdi:square-outline
+  entities:
+    - light.taklampe_soverom
+    - light.nattbordlys_gry
+    - light.nattbordlys_jo
+gang:
+  name: Gangen
+  icon: mdi:square-outline
+  entities:
+    - light.yttergang_taklampe_level
+    - light.innergang_taklampe_level
+vekkerklokke_gry:
+  name: Vekkerklokke Grys nattbordslampe
+  icon: mdi:alarm
+  entities:
+    - input_datetime.vekkerklokke_gry_tid
+    - sensor.vekkerklokke_gry_kl
+    - input_boolean.vekkerklokke_gry_aktivert
+alt_lys_av:
+  name: Alt lys av
+  icon: mdi:weather-night
+  entities:
+    - script.alt_lys_av
+    - input_datetime.alt_lys_av_tid
+    - input_boolean.alt_lys_av_aktivert
+jo_test:
+  name: Jo test
+  entities:
+    - input_datetime.jo_test_datetime
+    - input_boolean.jo_test_boolean
+
+sensorer:
+  view: yes
+  name: Sensorer
+  entities: 
+    - group.telefoner
+    - group.sensor_gang
+    - group.sensor_tid
+telefoner:
+  name: Telefoner
+  entities:
+    - device_tracker.grys_telefon
+    - device_tracker.jos_telefon
+sensor_gang:
+  name: Gangen
+  entities:
+    - binary_sensor.yttergang_ir_sensor
+    - sensor.yttergang_ir_luminance
+sensor_tid:
+  name: Tid, Lys og vær
+  entities:
+    - sensor.time
+    - sun.sun
+    - sensor.moon
+    - sensor.yr_symbol
+zwave:
+  view: yes
+  name: ZWave
+  entities:
+    - zwave.zwave_usb
+    - zwave.innergang_taklampe
+    - zwave.yttergang_taklampe
+    - zwave.spisebord_taklampe
+    - zwave.new_york_rom_taklampe
+    - zwave.yttergang_ir

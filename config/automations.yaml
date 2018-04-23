@@ -1,0 +1,9 @@
+- alias: "Sensorstyrt lys i gangen"
+  hide_entity: false
+  trigger:
+    - platform: state
+      entity_id: binary_sensor.yttergang_ir_sensor
+      to: "on"
+  action:
+    service: homeassistant.turn_on
+    entity_id: script.sensorstyrt_lys_gang_on
